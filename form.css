@@ -1,0 +1,150 @@
+*
+{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body
+{
+	background: linear-gradient(#2FA777,#486A83);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 93vh;
+}
+
+form
+{
+	width:400px;
+	margin: 50px auto;
+	background: linear-gradient(#74DDE1,#75E4C3);
+	padding-top: 15px;
+	padding-bottom: 50px;
+	border-radius: 20px;
+}
+
+.userf
+{
+	margin-left: 30%;
+	margin-bottom:15px;
+	color: #4C9395;
+}
+.signf
+{
+	font-size: 28px;
+	font-weight: bolder;
+	position: relative;
+	top:-10px;
+	color:white;
+}
+.u
+{
+	position: relative;
+	top:65px;
+	left:-245px;
+	color: white;
+}
+.l
+{
+	position: relative;
+	top:120px;
+	left:-270px;
+	color: white;
+}
+.e
+{
+	position: relative;
+	top:120px;
+	left:-40px;
+	color: white;
+}
+input[type='text'],input[type='password'],input[type=submit]
+{
+	display: block;
+	width:80%;
+	margin: 10px auto;
+	height:40px;
+	border-radius: 10px;
+	background-color: #4C9395;
+	border-style: solid;
+	border-color:#4C9395;
+	outline: none;
+	color: white;
+}
+input[type='text'],input[type='password']{text-indent: 50px;}
+input::-webkit-input-placeholder{color: white;}
+input[type='checkbox']
+{
+	width:25px;
+	height: 25px;
+	margin-left:10%;
+	margin-right:5px;
+	cursor:pointer;
+}
+input[type=submit]{cursor: pointer;color: white;font-weight: bolder;font-size: 20px;}
+hr
+{
+	width: 70%;
+	margin:10px auto;
+	height:.01px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: black;
+}
+.r
+{
+	color: #4C9490;
+	cursor: pointer;
+}
+.f
+{
+	margin-left:25%;
+	color: #4C9490;
+	cursor: pointer;
+}
+div
+{
+	display: block;
+	width:80%;
+	margin: 10px auto;
+	height:40px;
+	border-radius: 10px;
+	border-style: solid;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	cursor: pointer;
+	
+}
+.first
+{
+	background-color: #5284CD;
+	border-color:#5284CD;
+}
+.second
+{
+	background-color: #48B1F5;
+	border-color:#48B1F5;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+span
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color:white;
+	display:block;
+	margin: 0px auto;
+	position:relative;
+	top:-40px;
+	text-align: center;
+}
+span::after
+{
+	font-family: "fontawesome";
+	content:"\f107";
+	font-size: 45px;
+}
